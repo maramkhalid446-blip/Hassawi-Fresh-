@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <!-- bootstrap & style -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+  <style>
+    body { background-color: #F7F0CE; font-family: Arial, sans-serif; }
+
+    .contact-section {
+      background-image: url('images/banner-bg.png'); 
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact-container {
+      max-width: 1000px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .contact-info, .contact-form {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .contact-info h2, .contact-form h2 { margin-bottom: 20px; color:#425010; }
+    .contact-info p { margin: 12px 0; font-size: 15px; }
+
+    .form-group { margin-bottom: 15px; }
+    .form-group label { display: block; margin-bottom: 5px; font-weight: bold; font-size: 14px; }
+    .form-group input, .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    .form-group textarea { resize: none; height: 120px; }
+
+    .btn {
+      background-color: #fbdb5b;
+      color: Black;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    .btn:hover { background-color: #555; }
+
+    @media (max-width: 768px) { .contact-container { grid-template-columns: 1fr; } }
+  </style>
+<head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Romyk</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <a class="navbar-brand"href="index.html"><img src="images/logo.png" style="width: 113px; height: 70.484";> </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                     <!--<li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>-->
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cart</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="registration.html">Registration</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                     </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                     <!--<div class="login_bt"><a href="#">Login <span style="color: #222222;"><i class="fa fa-user" aria-hidden="true"></i></span></a></div>-->
+                     <div class="fa fa-search form-control-feedback"></div>
+                  </form>
+               </div>
+            </nav>
+         </div>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>📍 Address:</strong> Al-Khobar, Eastern Province, Saudi Arabia</p>
+        <p><strong>📞 Phone:</strong> +01 1234567890</p>
+        <p><strong>📧 Email:</strong>  info@hassawifresh.com</p>
+        <p><strong>⏰ Working Hours:</strong> Sat - Thu, 9:00 AM - 6:00 PM</p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Type your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="contact_section layout_padding">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="contact_main">
+               <h1 class="contact_taital">Get 20% Off Your Next Purchase</h1>
+               <form action="/action_page.php">
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Name" name="Name">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Email" name="Name">
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
+                  </div>
+                  <div class="form-group">
+                     <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
+                  </div>
+               </form>
+               <div class="main_bt"><a href="#">SEND</a></div>
+            </div>
+         </div>
+         <div class="col-md-8">
+            <div class="location_text">
+               <h1 class="contact_taital">Contact Us</h1>
+               <ul>
+                  <li>
+                     <a href="#">
+                     <span class="padding_left_10 active"><i class="fa fa-map-marker" aria-hidden="true"></i></span>Al-Khobar, Eastern Province, Saudi Arabia</a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <span class="padding_left_10"><i class="fa fa-phone" aria-hidden="true"></i></span>Call : +01 1234567890
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <span class="padding_left_10"><i class="fa fa-envelope" aria-hidden="true"></i></span>Email : info@hassawifresh.com
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer_social_icon">
+               <ul>
+                  <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+<!-- contact section end -->
+<!-- copyright section start -->
+<div class="copyright_section">
+   <div class="container">
+      <p class="copyright_text">2020 All Rights Reserved. Design by <a href="https://html.design">Free Html Templates</a> Distribution by <a href="https://themewagon.com">ThemeWagon</a></p>
+   </div>
+</div>
+<!-- copyright section end -->
+<!-- Javascript files-->
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/plugin.js"></script>
+<!-- sidebar -->
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="js/custom.js"></script>
+<!-- javascript --> 
+</body>
+</html>
